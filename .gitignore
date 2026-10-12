@@ -1,0 +1,30 @@
+node_modules/
+.expo/
+.gradle-home/
+android/
+
+ios/
+.DS_Store
+*.log
+.env
+.env.*
+dist/
+web-build/
+coverage/
+.expo-shared/
+
+# Secrets and signing
+play-service-account.json
+*-service-account*.json
+*.keystore
+*.jks
+*.p8
+*.p12
+*.pem
+*.key
+*.mobileprovision
+
+# Build outputs
+*.aab
+*.apk
+*.ipa

@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "Case Diary",
+    "slug": "caseflow",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "caseflow",
+    "icon": "./assets/icon.png",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.caseflow.mobile"
+    },
+    "android": {
+      "package": "com.caseflow.mobile",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0B1F3A"
+      }
+    },
+    "plugins": [
+      "expo-sqlite",
+      "expo-sharing",
+      "expo-status-bar",
+      "@react-native-community/datetimepicker",
+      "expo-font",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#0B1F3A",
+          "image": "./assets/icon.png",
+          "imageWidth": 240,
+          "resizeMode": "contain"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "941f93a8-294e-4d3a-bfa6-1104b50179fe"
+      }
+    },
+    "owner": "udeshya"
+  }
+}
